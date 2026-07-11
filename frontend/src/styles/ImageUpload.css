@@ -1,0 +1,18 @@
+.upload-box{
+    margin-top:40px;
+    text-align:center;
+}
+
+button{
+    padding:12px 25px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#1d4ed8;
+}
