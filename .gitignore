@@ -1,18 +1,15 @@
-# Dependencies
-node_modules/
+# Python virtual environment
+.venv/
 
-# Build files
-dist/
+# Python cache
+__pycache__/
+*.pyc
 
 # Environment variables
 .env
 
-# Python
-__pycache__/
-*.pyc
+# Node modules
+node_modules/
 
-# VS Code
-.vscode/
-
-# Logs
-npm-debug.log*
+# Build files
+dist/
