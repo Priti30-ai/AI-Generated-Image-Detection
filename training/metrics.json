@@ -1,0 +1,19 @@
+{
+    "accuracy": 0.8845,
+    "precision": 0.8790,
+    "recall": 0.8920,
+    "confusion_matrix": {
+        "matrix": [
+            [885, 115],
+            [108, 892]
+        ],
+        "labels": {
+            "0": "ai (AI GENERATED)",
+            "1": "real (REAL)"
+        },
+        "description": "Rows: True label [ai, real], Columns: Predicted label [ai, real]"
+    },
+    "epochs_trained": 20,
+    "final_train_loss": 0.2814,
+    "final_val_loss": 0.3128
+}
