@@ -4,7 +4,6 @@
   padding: 16px 32px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
   position: sticky;
   top: 0;
@@ -32,40 +31,8 @@
   -webkit-text-fill-color: transparent;
 }
 
-.navbar-nav {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.nav-link {
-  text-decoration: none;
-  color: #94a3b8;
-  font-size: 0.95rem;
-  font-weight: 500;
-  padding: 6px 14px;
-  border-radius: 6px;
-  transition: all 0.2s ease;
-}
-
-.nav-link:hover {
-  color: #ffffff;
-  background: rgba(255, 255, 255, 0.08);
-}
-
-.nav-link.active {
-  color: #ffffff;
-  background: #2563eb;
-  font-weight: 600;
-}
-
 @media (max-width: 600px) {
   .navbar {
     padding: 14px 20px;
-    flex-direction: column;
-    gap: 12px;
   }
 }

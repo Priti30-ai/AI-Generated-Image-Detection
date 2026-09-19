@@ -148,10 +148,10 @@ AI_Generated_Image_Detection/
 ├── frontend/
 │   ├── src/
 │   │   ├── components/            # Navbar, ImageUpload, ResultCard, Footer
-│   │   ├── pages/                 # Home, About
+│   │   ├── pages/                 # Home (detection & analysis view)
 │   │   ├── services/              # Axios api.js service
 │   │   ├── styles/                # Component & page styles
-│   │   ├── App.jsx                # React Router setup (/ and /about)
+│   │   ├── App.jsx                # Application root & router
 │   │   └── main.jsx
 │   ├── .env.example
 │   └── package.json
